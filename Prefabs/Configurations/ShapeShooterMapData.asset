@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de65e55a2e374445bf40cdac8de4061, type: 3}
+  m_Name: ShapeShooterMapData
+  m_EditorClassIdentifier: 
+  missileTypeToLevelMaps:
+  - Level: 1
+    MissileTypeDatas:
+    - MissileType: 0
+      HealthThreshold: 100
+  - Level: 2
+    MissileTypeDatas:
+    - MissileType: 0
+      HealthThreshold: 100
+    - MissileType: 1
+      HealthThreshold: 50
+  - Level: 3
+    MissileTypeDatas:
+    - MissileType: 0
+      HealthThreshold: 100
+    - MissileType: 1
+      HealthThreshold: 66
+    - MissileType: 2
+      HealthThreshold: 33
+  missileTextureMaps:
+  - MissileType: 0
+    MissileSprite: {fileID: 21300000, guid: 85b954a8fbbb14d5ea606dfde0e6401b, type: 3}
+  - MissileType: 1
+    MissileSprite: {fileID: 21300000, guid: 470d8b4b2c67a45feaf3cddf7c0ebd27, type: 3}
+  - MissileType: 2
+    MissileSprite: {fileID: 21300000, guid: 1161b8aa0adaf4ec7a4d9aa95dc1b9c7, type: 3}
+  EnemyHealthPerLevel: 030000000400000005000000
